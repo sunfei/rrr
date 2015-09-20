@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sunfei/rrr.git", :tag => "v0.0.1" }
   s.source_files  = "rrr/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  # s.framework  = "SomeFramework"
+  s.framework  = "QuartzCore"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.requires_arc = true
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+  s.dependency 'Aspects' 
 
 end
