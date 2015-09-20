@@ -15,6 +15,9 @@
 		A5D8CC671BAE5B970044E96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D8CC651BAE5B970044E96E /* LaunchScreen.storyboard */; };
 		A5D8CC721BAE5B970044E96E /* rrrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8CC711BAE5B970044E96E /* rrrTests.m */; };
 		A5D8CC7D1BAE5B970044E96E /* rrrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8CC7C1BAE5B970044E96E /* rrrUITests.m */; };
+		A5D8CCCA1BAE65470044E96E /* s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D8CCC91BAE65470044E96E /* s.jpg */; settings = {ASSET_TAGS = (); }; };
+		A5D8CCCE1BAE680B0044E96E /* DSC00772.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D8CCCC1BAE680B0044E96E /* DSC00772.jpg */; settings = {ASSET_TAGS = (); }; };
+		A5D8CCCF1BAE680B0044E96E /* e930d5f80947f910b18f6edb9efe6245.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D8CCCD1BAE680B0044E96E /* e930d5f80947f910b18f6edb9efe6245.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		A5D8CC781BAE5B970044E96E /* rrrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rrrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D8CC7C1BAE5B970044E96E /* rrrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rrrUITests.m; sourceTree = "<group>"; };
 		A5D8CC7E1BAE5B970044E96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D8CCC91BAE65470044E96E /* s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s.jpg; sourceTree = "<group>"; };
+		A5D8CCCC1BAE680B0044E96E /* DSC00772.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC00772.jpg; sourceTree = "<group>"; };
+		A5D8CCCD1BAE680B0044E96E /* e930d5f80947f910b18f6edb9efe6245.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e930d5f80947f910b18f6edb9efe6245.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,10 @@
 		A5D8CC561BAE5B970044E96E /* rrr */ = {
 			isa = PBXGroup;
 			children = (
+				A5D8CCCB1BAE680B0044E96E /* ui */,
 				A5D8CC5A1BAE5B970044E96E /* AppDelegate.h */,
 				A5D8CC5B1BAE5B970044E96E /* AppDelegate.m */,
+				A5D8CCC91BAE65470044E96E /* s.jpg */,
 				A5D8CC5D1BAE5B970044E96E /* ViewController.h */,
 				A5D8CC5E1BAE5B970044E96E /* ViewController.m */,
 				A5D8CC601BAE5B970044E96E /* Main.storyboard */,
@@ -138,6 +146,15 @@
 				A5D8CC7E1BAE5B970044E96E /* Info.plist */,
 			);
 			path = rrrUITests;
+			sourceTree = "<group>";
+		};
+		A5D8CCCB1BAE680B0044E96E /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8CCCC1BAE680B0044E96E /* DSC00772.jpg */,
+				A5D8CCCD1BAE680B0044E96E /* e930d5f80947f910b18f6edb9efe6245.jpg */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D8CCCA1BAE65470044E96E /* s.jpg in Resources */,
+				A5D8CCCF1BAE680B0044E96E /* e930d5f80947f910b18f6edb9efe6245.jpg in Resources */,
 				A5D8CC671BAE5B970044E96E /* LaunchScreen.storyboard in Resources */,
 				A5D8CC641BAE5B970044E96E /* Assets.xcassets in Resources */,
 				A5D8CC621BAE5B970044E96E /* Main.storyboard in Resources */,
+				A5D8CCCE1BAE680B0044E96E /* DSC00772.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +516,7 @@
 				A5D8CC831BAE5B970044E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D8CC841BAE5B970044E96E /* Build configuration list for PBXNativeTarget "rrrTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +525,7 @@
 				A5D8CC861BAE5B970044E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D8CC871BAE5B970044E96E /* Build configuration list for PBXNativeTarget "rrrUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +534,7 @@
 				A5D8CC891BAE5B970044E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

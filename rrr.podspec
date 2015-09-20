@@ -5,9 +5,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/sunfei/rrr"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "sffish" => "sunfeifish@gmail.com" }
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/sunfei/rrr.git", :tag => "v0.0.1" }
   s.source_files  = "rrr/*.{h,m}"
+  s.resources = 'rrr/ui/*.jpg' 
   # s.exclude_files = "Classes/Exclude"
   s.framework  = "QuartzCore"
   # s.frameworks = "SomeFramework", "AnotherFramework"
