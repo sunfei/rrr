@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/sunfei/rrr.git", :tag => "v0.0.1" }
   s.source_files  = "rrr/*.{h,m}"
-  s.resources = 'rrr/ui/*.jpg' 
+  s.resource  = "rrr/s.jpg"
+  # s.resources = 'ui/.jpg' 
   # s.exclude_files = "Classes/Exclude"
   s.framework  = "QuartzCore"
   # s.frameworks = "SomeFramework", "AnotherFramework"
